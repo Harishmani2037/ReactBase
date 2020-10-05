@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Search"
+        android:id="@+id/opt_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        />
+    <item
+        android:title="Add Post"
+        android:id="@+id/action_add_photo"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_add_to_photos_black_24dp"
+        android:iconTint="#000000"
+        />
+    <item
+        android:title="Create Group"
+        android:id="@+id/createGroup"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_group_add_black_24dp"
+        android:iconTint="@color/black"
+        />
+    <item
+        android:title="Add Participants"
+        android:id="@+id/action_add_Participant_group"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:iconTint="@color/black"/>
+    <item
+        android:title="Info"
+        android:id="@+id/info"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_info_black_24dp"
+        />
+
+</menu>

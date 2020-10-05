@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OtpRegisteration"
+    android:background="@drawable/background1">
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CO\nDE"
+            android:textSize="80dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="19dp"
+            android:text="Verification"
+            />
+
+    <com.chaos.view.PinView
+        android:layout_width="338dp"
+
+        app:lineColor="?attr/colorControlNormal"
+        style="@style/PinWidget.PinView"
+        android:inputType="number"
+        android:cursorVisible="true"
+        app:cursorColor="@color/black"
+        app:hideLineWhenFilled="true"
+        android:layout_height="wrap_content"
+        app:itemCount="6"
+        android:id="@+id/otpcode"
+        app:itemWidth="50dp"
+        app:itemHeight="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:itemRadius="5dp"
+        />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:maxLength="6"
+        android:background="@drawable/custom_choose1"
+        android:text="Verify"
+         />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "626055216026",
+    "firebase_url": "https://reactbase-84578.firebaseio.com",
+    "project_id": "reactbase-84578",
+    "storage_bucket": "reactbase-84578.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626055216026:android:eccdbddf697fefdaadd823",
+        "android_client_info": {
+          "package_name": "com.harish.reactbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626055216026-gl61685kpurkbrk50m6n8a3nhsbb2976.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS8dnhHZ7aNdmCqBZPicE5nT1qQOC-nFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626055216026-gl61685kpurkbrk50m6n8a3nhsbb2976.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
